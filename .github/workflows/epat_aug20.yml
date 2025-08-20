@@ -20,8 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      # 添加依赖图权限
-      dependency-graph: write
 
     steps:
     - uses: actions/checkout@v4
